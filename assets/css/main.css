@@ -2401,6 +2401,29 @@ input, select, textarea {
 			padding: 0;
 		}
 
+/* Devicon */
+
+	.skill-icons {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+	.devicon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+	.devicon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
 /* Icon */
 
 	.icon {
@@ -2611,6 +2634,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			flex-direction: row;
 		}
 
 		ul.actions.special {
@@ -2705,6 +2729,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
+						flex-direction: row;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -2713,6 +2738,7 @@ input, select, textarea {
 						ul.actions:not(.fixed) li button.icon:before,
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
+							flex-direction: row;
 						}
 
 		}
@@ -3757,7 +3783,9 @@ input, select, textarea {
 			}
 
 			header.major {
-				margin: 0 0 2em 0;
+				/* display: flex; */
+				flex-direction: row;
+				/* margin: 0 0 2em 0; */
 			}
 
 		/* Goto Next */
