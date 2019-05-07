@@ -2403,19 +2403,6 @@ input, select, textarea {
 
 /* Devicon */
 
-	.skill-icons {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-	.devicon {
-		font-size: 24px;
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
 	.devicon:before {
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
@@ -3052,8 +3039,9 @@ input, select, textarea {
 
 		.spotlight:before {
 			background-image: url("images/overlay.png");
-			content: '';
-			display: block;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			height: 100%;
 			left: 0;
 			top: 0;
@@ -3134,6 +3122,22 @@ input, select, textarea {
 
 		.spotlight.style1 .content {
 			border-color: #e44c65;
+		}
+
+		.skill-icons .devicon {
+			font-size: 50px;
+		}
+		.spotlight.style1 .devicon {
+			/* position: absolute; */
+			/* top: 0; */
+			/* left: 10%; */
+			display: block;
+			text-align: center;
+			justify-content: space-between;
+			/* align-items: center; */
+			width: 100%;
+			height: 100vh;
+			/* font-size: 50px; */
 		}
 
 		.spotlight.style2 .content {
