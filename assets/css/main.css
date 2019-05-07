@@ -3133,15 +3133,13 @@ input, select, textarea {
 
 		.spotlight.style1 .skills-title {
 			display: flex;
-			margin-left: 12%;
+			margin-left: 11%;
 			margin-top: 3%;
 			font-size: 2em;
 		}
 
 		.spotlight.style1 .skill-icons {
 			display: flex;
-			/* margin: 0 auto; */
-			/* margin-left: 10%; */
 			justify-content: space-evenly;
 			font-size: 60px;
 		}
