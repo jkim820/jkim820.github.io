@@ -2861,6 +2861,13 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.fit.primary {
+			border: 1px solid white;
+			border-radius: 5px;
+			margin-left: 50px;
+			padding: 10px -50px;
+		}
+
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
