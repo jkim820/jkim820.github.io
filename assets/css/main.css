@@ -3404,6 +3404,10 @@ input, select, textarea {
 			top: 0;
 		}
 
+		#header h1:hover {
+			color: #e44c65;
+		}
+
 		#header nav {
 			position: absolute;
 			right: 1em;
@@ -3800,7 +3804,7 @@ input, select, textarea {
 			}
 
 			header.major {
-				/* display: flex; */
+				display: inline;
 				flex-direction: row;
 				/* margin: 0 0 2em 0; */
 			}
