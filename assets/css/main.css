@@ -2216,7 +2216,7 @@ input, select, textarea {
 
 	input[type="text"],
 	input[type="password"],
-	input[type="email"],
+	/* input[type="email"], */
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -2862,10 +2862,17 @@ input, select, textarea {
 		}
 
 		.fit.primary {
+			display: inline-block;
 			border: 1px solid white;
 			border-radius: 5px;
-			margin-left: 50px;
-			padding: 10px -50px;
+			margin-top: 20px;
+			padding: 10px 30px;
+			color: white;
+		}
+
+		.fit.primary:hover {
+			color: #e44c65;
+			border-color: #e44c65;
 		}
 
 		input[type="submit"].small,
@@ -3541,6 +3548,7 @@ input, select, textarea {
 
 		#footer .icons .icon.alt {
 			text-decoration: none;
+			font-size: 20px;
 		}
 
 			#footer .icons .icon.alt:before {
