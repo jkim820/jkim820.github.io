@@ -3405,7 +3405,7 @@ input, select, textarea {
 		}
 
 		#header h1:hover {
-			color: #e44c65;
+			color: #e44c65
 		}
 
 		#header nav {
@@ -3801,12 +3801,6 @@ input, select, textarea {
 			header h5 + p,
 			header h6 + p {
 				font-size: 0.9em;
-			}
-
-			header.major {
-				display: inline;
-				flex-direction: row;
-				/* margin: 0 0 2em 0; */
 			}
 
 		/* Goto Next */
